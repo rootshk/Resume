@@ -6,7 +6,7 @@
 - 毕业院校：广州华夏职业学院
 - 学历：大专
 - 户籍地：广东茂名
-- 期望地：广州内
+- 期望地：广州 / 深圳
 
 # 联系方式
 - 手机：13035816039
@@ -16,7 +16,7 @@
 
 # 工作经历
 
-## 广州福苷禄商贸有限公司-后端开发（ 2018年3月至 2019-05 ）
+## 广州福苷禄商贸有限公司-后端开发（ 2018年3月至 2019-04 ）
 
 ### 商城支付支撑系统 (Java)
 * 该项目为公司基础支持系统, 为商城及其他服务提供 收款/核算/第三方支付 整合为一体的集合系统
@@ -24,8 +24,8 @@
 * RESTful接口及清算系统开发
 * 业务系统的对接联调, 稳定性测试
 ```
-开发技术: SpringCloud, Redis, MySQL
-项目亮点：支付插件可集成化
+开发技术: SpringCloud, Redis, MySQL, Swagger
+项目亮点：支付插件可集成化, 水平扩展性强
 ```
 
 ### 茶极客小程序(在微信中搜索该小程序即可) (Java)
@@ -87,6 +87,7 @@
 # 开源项目和作品
 
 ## 开源项目(托管于Github中: https://github.com/rootshk)
+  - [review-utils](#): 评论导入工具(未开源)(Golang语言)
   - [push-server](https://roothk.top)：消息分发服务脚手架(开发构建中)
   - [url-shortener](https://github.com/rootshk/url-shortener-java)：短地址服务
   - [wechat-MiniCode](https://github.com/rootshk/wechatMiniProgramCode)：微信小程序分享二维码生成服务
@@ -111,14 +112,13 @@
 # 技能清单
 以下均为我熟练使用的技能
 
-- Web开发：JAVA/PHP/HTML
+- Web开发：JAVA/PHP/HTML/Golang/WebSocket/JS/Vue
 - Web框架：Spring Boot/Spring MVC/Hibernate/Spring Cloud/Mybatis
 - 运行容器: Docker
 - 持续集成: Jenkins
-- 开发工具：IntelliJ IDEA/Eclipse/vs code
-- 中间件：Redis
+- 开发工具：IntelliJ IDEA/Eclipse/VSCode
 - 前端框架：Materialize/HTML5/Vue.js
-- 数据库相关：MySQL/MariaDB
+- 数据库相关：MySQL/MariaDB/Redis
 - 版本管理工具：Git/SVN
 - 单元测试：JUnit
 - 云和开放平台：AWS/微信应用开发
