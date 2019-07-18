@@ -9,32 +9,23 @@
 - 期望地：广州 / 深圳
 
 # 联系方式
-- 手机：13035816039
+- 手机：13288993990
 - Email：hk374790498@gmail.com 
 - 微信号：hk3747
 
 
 # 工作经历
 
-## 广州福苷禄商贸有限公司-后端开发（ 2018年3月至 2019-04 ）
+## 广州福苷禄商贸有限公司-后端开发（ 2018年3月 ~ 2019年07月 ）
 
 ### 商城支付支撑系统 (Java)
 * 该项目为公司基础支持系统, 为商城及其他服务提供 收款/核算/第三方支付 整合为一体的集合系统
-* 项目底层框架搭建,编码及优化
-* RESTful接口及清算系统开发
+* 项目底层框架搭建,编码及优化, 属于独立开发
+* RESTful接口及清算系统的开发
 * 业务系统的对接联调, 稳定性测试
 ```
-开发技术: SpringCloud, Redis, MySQL, Swagger
-项目亮点：支付插件可集成化, 水平扩展性强
-```
-
-### 茶极客小程序(在微信中搜索该小程序即可) (Java)
-* “茶极客”是一款提供线上预约,线下聚会的约茶小程序
-* 在原有的构架基础上定制开发适应业务代码,及前后端分离API的开发
-```
-开发技术: SpringBoot, Redis, MySQL, WebSocket, Elasticsearch
-开发阻碍: 原框架冗余过多, 功能点不匹配, 整合不到位等问题, 后通过服务化降低耦合
-项目亮点：轻量级, 相应快速
+开发技术: SpringCloud, Redis, MySQL, Swagger, Hibernate
+项目亮点：支持多支付插件集成, 水平扩展性强, 同时支持单体/集群部署
 ```
 
 ### 福禄仓商城(https://shop.fulucang.com) (Java)
@@ -47,6 +38,15 @@
 开发技术: Spring Cloud, SpringBoot, Redis, MySQL, WebSocket, Elasticsearch, MongoDB
 开发阻碍: 项目转型前由于为实现前后端分离, 导致项目转型时出现各种问题,比如权限控制, 后面通过OAuth 2 / JWT解决
 项目亮点：当前商城用户量: 5000+, 峰值并发500+
+```
+
+### 茶极客小程序(在微信中搜索该小程序即可) (Java)
+* “茶极客”是一款提供线上预约,线下聚会的约茶小程序
+* 在原有的构架基础上定制开发适应业务代码,及前后端分离API的开发
+```
+开发技术: SpringBoot, Redis, MySQL, WebSocket, Elasticsearch
+开发阻碍: 原框架冗余过多, 功能点不匹配, 整合不到位等问题, 后通过服务化降低耦合
+项目亮点：轻量级, 相应快速
 ```
 
 ## 广州苍牙网络科技有限公司-后台小组组长（ 2017年7月 ~ 2018年2月 ）
@@ -87,13 +87,13 @@
 # 开源项目和作品
 
 ## 开源项目(托管于Github中: https://github.com/rootshk)
-  - [review-utils](#): 评论导入工具(未开源)(Golang语言)
+  - [review-utils](#): 商城评论导入工具(未开源)(Golang语言)
   - [push-server](https://roothk.top)：消息分发服务脚手架(开发构建中)
   - [url-shortener](https://github.com/rootshk/url-shortener-java)：短地址服务
   - [wechat-MiniCode](https://github.com/rootshk/wechatMiniProgramCode)：微信小程序分享二维码生成服务
   - [local-ddns](https://github.com/rootshk/ddns)：动态DNS解析服务
   - [Elasticsearch-Dict](https://github.com/rootshk/elasticsearch-dict-util)：Elasticsearch远程IK字典更新工具
-  - [SpringCloud](https://github.com/rootshk/microservices)：SpringCloud服务
+  - [SpringCloud](https://github.com/rootshk/microservices)：个人分布式服务
   - [dding](https://github.com/rootshk/dding)：远程钉钉打卡服务
   - [weather](https://github.com/rootshk/weather)：天气页面
   - [web-code](https://github.com/rootshk/web-oss)：个人站点源码
@@ -107,13 +107,12 @@
 - ~~- [Ngrok方针](https://www.roothk.top/code/ngrok-help) ：自建ngrok使用指南-博客版~~
 - ~~- [GitHub指南](https://www.roothk.top/code/github-help)：初学者的入门指南~~
 - ...
->没钱交租金，主机已停机
 
 # 技能清单
 以下均为我熟练使用的技能
 
 - Web开发：JAVA/PHP/HTML/Golang/WebSocket/JS/Vue
-- Web框架：Spring Boot/Spring MVC/Hibernate/Spring Cloud/Mybatis
+- Web框架：Spring Cloud/Spring Boot/Spring MVC/Hibernate/Mybatis
 - 运行容器: Docker
 - 持续集成: Jenkins
 - 开发工具：IntelliJ IDEA/Eclipse/VSCode
@@ -131,7 +130,7 @@
       
 # 联系方式
 
-- 手机：13035816039/13288993990
+- 手机：13288993990/13035816039
 - Email：hk374790498@gmail.com
 - 微信号：hk3747
 - QQ号：374790498
