@@ -1,4 +1,4 @@
-<img src="http://oss.roothk.top/a.png" alt="头像" title="GitHub,Social Coding" width="150" height="150" />
+<img src="http://oss.roothk.top/c.png" alt="头像" title="GitHub,Social Coding" width="150" height="150" />
 
 # 个人简介-应聘JAVA 工程师
 - 姓名：沈鸿铿
@@ -103,7 +103,6 @@
 ## 技术文章
 - [Blog](https://roothk.top) : 博客https://roothk.top
 - [Ngrok方针](http://oss.roothk.top/ngrok/index.html) ：自建ngrok使用指南
- 
 - ~~- [Ngrok方针](https://www.roothk.top/code/ngrok-help) ：自建ngrok使用指南-博客版~~
 - ~~- [GitHub指南](https://www.roothk.top/code/github-help)：初学者的入门指南~~
 - ...
