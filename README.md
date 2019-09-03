@@ -19,12 +19,12 @@
 ## 广州福苷禄商贸有限公司-后端开发（ 2018年3月 ~ 2019年07月 ）
 
 ### 商城支付支撑系统 (Java)
-* 该项目为公司基础支持系统, 为商城及其他服务提供 收款/核算/第三方支付 整合为一体的集合系统
+* 该项目为公司基础支持系统, 为商城及其他服务提供 收款/核算/第三方支付 整合为一体的聚合服务
 * 项目底层框架搭建,编码及优化, 属于独立开发
 * RESTful接口及清算系统的开发
 * 业务系统的对接联调, 稳定性测试
 ```
-开发技术: SpringCloud, Redis, MySQL, Swagger, Hibernate
+开发技术: SpringCloud, Redis, MySQL, Swagger, Spring Data JPA
 项目亮点：支持多支付插件集成, 水平扩展性强, 同时支持单体/集群部署
 ```
 
@@ -35,7 +35,7 @@
 * hibernate-search与elasticsearch整合实现分布式搜索
 * 项目前期负责前后端界面编写测试, 小程序前后端开发测试与发布.
 ```
-开发技术: Spring Cloud, SpringBoot, Redis, MySQL, WebSocket, Elasticsearch, MongoDB
+开发技术: Spring Cloud, Spring Boot, Redis, MySQL, WebSocket, Elasticsearch, MongoDB
 开发阻碍: 项目转型前由于为实现前后端分离, 导致项目转型时出现各种问题,比如权限控制, 后面通过OAuth 2 / JWT解决
 项目亮点：当前商城用户量: 5000+, 峰值并发500+
 ```
@@ -80,10 +80,6 @@
 * Linux
 * 网页设计
 
-## 广东省电白县实验中学（ 2012年9月 ~ 2015年6月 ）
-
-### 高中
-
 # 开源项目和作品
 
 ## 开源项目(托管于Github中: https://github.com/rootshk)
@@ -111,7 +107,7 @@
 以下均为我熟练使用的技能
 
 - Web开发：JAVA/PHP/HTML/Golang/WebSocket/JS/Vue
-- Web框架：Spring Cloud/Spring Boot/Spring MVC/Hibernate/Mybatis
+- Web框架：Spring Cloud/Spring Boot/Spring Data JPA/Spring MVC/Hibernate/Mybatis
 - 运行容器: Docker
 - 持续集成: Jenkins
 - 开发工具：IntelliJ IDEA/Eclipse/VSCode
