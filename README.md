@@ -16,6 +16,26 @@
 
 # 工作经历
 
+## 广州范普科技有限公司-后端开发（ 2019年9月 ~ 至今 ）
+
+### 康肤医美小程序后台开发 (Java)
+* 该项目是一个主沟通,重服务的线上商城项目
+* 负责项目数据原型开发, 逻辑实现, 测试优化
+* 为小程序端提供实时聊天API及商城服务支持
+```
+开发技术: SpringBoot, Redis, PostgreSQL, Swagger2, Spring Data JPA, WebSocket等
+项目亮点：聊天系统使用WebSocket降低外部MQ依赖, 降低后期维护成本
+```
+
+### 会议预约小程序开发 (Java)
+* 该项目是科技园孵化器为入驻客户提供的一体化管理软件
+* 负责项目数据原型开发, 逻辑实现, 测试优化, 前后端分离的API接口
+* 房源库存精准限制及签到打卡功能
+```
+开发技术: SpringBoot, Redis, PostgreSQL, Swagger2, Spring Data JPA等
+项目亮点：
+```
+
 ## 广州福苷禄商贸有限公司-后端开发（ 2018年3月 ~ 2019年07月 ）
 
 ### 商城支付支撑系统 (Java)
@@ -24,7 +44,7 @@
 * RESTful接口及清算系统的开发
 * 业务系统的对接联调, 稳定性测试
 ```
-开发技术: SpringCloud, Redis, MySQL, Swagger, Spring Data JPA
+开发技术: SpringCloud, Redis, MySQL, Swagger2, Spring Data JPA
 项目亮点：支持多支付插件集成, 水平扩展性强, 同时支持单体/集群部署
 ```
 
