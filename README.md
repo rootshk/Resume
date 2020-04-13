@@ -6,7 +6,7 @@
 - 毕业院校：广州华夏职业学院
 - 学历：大专
 - 户籍地：广东茂名
-- 期望地：广州 / 深圳
+- 期望地：广州
 
 # 联系方式
 - 手机：13288993990
@@ -16,7 +16,24 @@
 
 # 工作经历
 
-## 广州范普科技有限公司-后端开发（ 2019年9月 ~ 2019-12月 ）
+## 广州范普科技有限公司-后端开发（ 2019年9月 ~ 2020-03月 ）
+
+### 桌面云邮件后台开发 (Java)
+* 该项目为小惠云桌面的内部系统, 用于内部网络发出邮件的拦截转换, 实现正文仅内网可见效果
+* 负责项目数据原型开发, 逻辑实现, 测试优化
+```
+开发技术:  SpringBoot, Redis, MySQL, Swagger2, MyBatis-Plus等
+项目亮点：在既定的技术选型下, 优化基础架构实现无SQL编写的动态查询
+```
+
+### SAAS商城后台开发 (Java)
+* 该项目是一个用于实现线下门店美瞳试装到线上购买的SAAS商城
+* 负责项目数据原型开发, 逻辑实现, 测试优化及Elasticsearch搜索逻辑实现
+* 平台包括试装程序及商城程序, 授权方式类似于微擎
+```
+开发技术: SpringBoot, Redis, PostgreSQL, Swagger2, Spring Data JPA, RabbitMQ, Elasticsearch等
+项目亮点：两个程序之间的'信息互通'通过RabbitMQ实现, 原本多达7张表的SQL查询通过引入ES解决
+```
 
 ### 康肤医美小程序后台开发 (Java)
 * 该项目是一个主沟通,重服务的线上商城项目
@@ -33,16 +50,16 @@
 * 房源库存精准限制及签到打卡功能
 ```
 开发技术: SpringBoot, Redis, PostgreSQL, Swagger2, Spring Data JPA等
-项目亮点：
+项目亮点：会议室单间库存采用独立表结构保证查询性能
 ```
 
-### 亚马逊广告公众号抽奖引流 (Java)
-* 该项目是'亚马逊广告'公众号定制的一个抽奖项目
+### 微信公众号抽奖类引流项目开发 (Java)
+* 此项包含了亚马逊中国及中邮的两个公众号拉新活动
 * 负责项目数据原型开发, 逻辑实现, 测试优化, 前后端分离的API接口
-* 日活量1000+
+* 活动拉新用户新增5000+
 ```
 开发技术: SpringBoot, Redis, PostgreSQL, Swagger2, Spring Data JPA等
-项目亮点：
+项目亮点：支持分渠道, 分奖池, 分概率的抽奖设置, 主要利用Redis原子性保证库存防止超售, 通过Redis压栈出栈进行请求削峰
 ```
 
 ## 广州福苷禄商贸有限公司-后端开发（ 2018年3月 ~ 2019年07月 ）
@@ -139,7 +156,7 @@
 - Web框架：Spring Cloud/Spring Boot/Spring Data JPA/Spring MVC/Hibernate/Mybatis
 - 运行容器: Docker
 - 持续集成: Jenkins
-- 开发工具：IntelliJ IDEA/Eclipse/VSCode
+- 开发工具：IntelliJ IDEA/VSCode
 - 前端框架：Materialize/HTML5/Vue.js
 - 数据库相关：MySQL/MariaDB/Redis
 - 版本管理工具：Git/SVN
