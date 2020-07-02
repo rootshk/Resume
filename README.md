@@ -1,5 +1,3 @@
-<img src="http://oss.roothk.top/c.png" alt="头像" title="GitHub,Social Coding" width="150" height="150" />
-
 # 个人简介-应聘JAVA 工程师
 - 姓名：沈鸿铿
 - 性别：男
@@ -11,25 +9,40 @@
 # 联系方式
 - 手机：13288993990
 - Email：hk374790498@gmail.com 
-- 微信号：hk3747
 
 
 # 工作经历
 
-## 广州范普科技有限公司-后端开发（ 2019年9月 ~ 2020-03月 ）
+## 广州范普科技有限公司-后端(2019年9月 ~ 2020-03月)
 
 ### 桌面云邮件后台开发 (Java)
-* 该项目为小惠云桌面的内部系统, 用于内部网络发出邮件的拦截转换, 实现正文仅内网可见效果
-* 负责项目数据原型开发, 逻辑实现, 测试优化
+* 项目通过邮件拦截转发, 使企业内网邮件可在外网无缝查看
+* 通过拦截内部邮件, 达到外网可见的同时, 实现隐私安全(隐藏邮件细节)
+* 负责项目: 0到1的基础框架搭建, 数据库表设计, AOP切面开发, 第三方接口联调等
+* 负责模块: 域名白名单, 敏感词, 拦截统计, 邮件记录, 邮件发送, 用户鉴权
+* 使用MyBatis-Plus作为持久层组件, 完成数据持久化前的自动处理
+* 利用Spring的HandlerMethodArgumentResolver使开发者用入参的方式获取当前用户, 写出优雅代码
+* 由于MyBatis需要编写大量Mapper, 故自行分装一套基于对象的动态查询工具类, 提高代码可读性
+* 分装BaseEntity实体类, BaseService等基础接口, 极大减少代码量(利用泛型)
+* 通过实现HandlerInterceptorAdapter, 拦截前后台服务请求, 对请求进行日志记录, 输出, 及权限过滤
+* 通过使用MQ, 规避邮件发送时由于存在CPU处理密集型任务导致响应时间过长的问题
+* 利用@ControllerAdvice实现了代码内部直接throw亦可返回统一全局错误码
+* 对每个具体功能编写针对性的@Test单元测试, 保证代码的稳定可靠
 ```
-开发技术:  SpringBoot, Redis, MySQL, Swagger2, MyBatis-Plus等
-项目亮点：在既定的技术选型下, 优化基础架构实现无SQL编写的动态查询
+开发技术:  SpringBoot, Redis, MySQL, Swagger2, MyBatis-Plus, Netty, FastJSON...等
 ```
 
 ### SAAS商城后台开发 (Java)
 * 该项目是一个用于实现线下门店美瞳试装到线上购买的SAAS商城
-* 负责项目数据原型开发, 逻辑实现, 测试优化及Elasticsearch搜索逻辑实现
-* 平台包括试装程序及商城程序, 授权方式类似于微擎
+* 负责模块: 商品, 订单, 购物车, 支付, 促销, 文章, 版本控制, 权限管理等
+* 使用Spring Data JPA为持久层, 利用EmptyInterceptor实现入库出库时的多商户查询
+* 项目使用Cloud Gateway实现多服务转发
+* 使用ApplicationContext.getMessage实现国际化
+* 利用@Convert实现bean到sql的无感知切换
+* 利用AOP实现多商户动态查询
+* 负责项目: 数据原型开发, 逻辑实现, 测试优化及Elasticsearch搜索逻辑实现
+* 平台包括试装程序及商城程序, 支持分应用授权
+* 对每个具体功能编写针对性的@Test单元测试, 保证代码的稳定可靠
 ```
 开发技术: SpringBoot, Redis, PostgreSQL, Swagger2, Spring Data JPA, RabbitMQ, Elasticsearch等
 项目亮点：两个程序之间的'信息互通'通过RabbitMQ实现, 原本多达7张表的SQL查询通过引入ES解决
@@ -59,10 +72,11 @@
 * 活动拉新用户新增5000+
 ```
 开发技术: SpringBoot, Redis, PostgreSQL, Swagger2, Spring Data JPA等
-项目亮点：支持分渠道, 分奖池, 分概率的抽奖设置, 主要利用Redis原子性保证库存防止超售, 通过Redis压栈出栈进行请求削峰
+项目亮点：支持分渠道, 分奖池, 分概率的抽奖设置,
+利用Redis原子性保证库存防止超售, 通过Redis压栈出栈进行请求削峰
 ```
 
-## 广州福苷禄商贸有限公司-后端开发（ 2018年3月 ~ 2019年07月 ）
+## 广州福苷禄商贸有限公司-后端( 2018年3月~2019年07月)
 
 ### 商城支付支撑系统 (Java)
 * 该项目为公司基础支持系统, 为商城及其他服务提供 收款/核算/第三方支付 整合为一体的聚合服务
@@ -82,7 +96,8 @@
 * 项目前期负责前后端界面编写测试, 小程序前后端开发测试与发布.
 ```
 开发技术: Spring Cloud, Spring Boot, Redis, MySQL, WebSocket, Elasticsearch, MongoDB
-开发阻碍: 项目转型前由于为实现前后端分离, 导致项目转型时出现各种问题,比如权限控制, 后面通过OAuth 2 / JWT解决
+开发阻碍: 项目转型前由于为实现前后端分离, 导致项目转型时出现各种问题
+比如权限控制, 则通过OAuth 2 / JWT解决
 项目亮点：当前商城用户量: 5000+, 峰值并发500+
 ```
 
@@ -95,7 +110,7 @@
 项目亮点：轻量级, 相应快速
 ```
 
-## 广州苍牙网络科技有限公司-后台小组组长（ 2017年7月 ~ 2018年2月 ）
+## 广州苍牙网络科技有限公司-后端小组组长(2017年7月 ~ 2018年2月)
 
 ### 网络多人棋牌项目 (Java)
 * “网络多人棋牌”是集多个玩法于一体得微信网页游戏,负责后台数据处理及结果展示
@@ -116,7 +131,7 @@
 
 # 教育情况
 
-## 广州华夏职业学院（ 2015年9月 ~ 2018年6月 ）
+## 广州华夏职业学院(2015年9月 ~ 2018年6月)
 
 ### 大专 - 计算机网络 （主修课程）
 * 计算机网络应用
@@ -145,15 +160,15 @@
 ## 技术文章
 - [Blog](https://roothk.top) : 博客https://roothk.top
 - [Ngrok方针](http://oss.roothk.top/ngrok/index.html) ：自建ngrok使用指南
-- ~~- [Ngrok方针](https://www.roothk.top/code/ngrok-help) ：自建ngrok使用指南-博客版~~
-- ~~- [GitHub指南](https://www.roothk.top/code/github-help)：初学者的入门指南~~
+- [Ngrok方针](https://www.roothk.top/code/ngrok-help) ：自建ngrok使用指南-博客版
+- [GitHub指南](https://www.roothk.top/code/github-help)：初学者的入门指南
 - ...
 
 # 技能清单
 以下均为我熟练使用的技能
 
 - Web开发：JAVA/PHP/HTML/Golang/WebSocket/JS/Vue
-- Web框架：Spring Cloud/Spring Boot/Spring Data JPA/Spring MVC/Hibernate/Mybatis
+- 技术框架：Spring Cloud/Spring Boot/Spring Data JPA/Spring MVC/Hibernate/Mybatis
 - 运行容器: Docker
 - 持续集成: Jenkins
 - 开发工具：IntelliJ IDEA/VSCode
@@ -173,6 +188,3 @@
 
 - 手机：13288993990/13035816039
 - Email：hk374790498@gmail.com
-- 微信号：hk3747
-- QQ号：374790498
-
